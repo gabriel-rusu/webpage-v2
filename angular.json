@@ -12,7 +12,7 @@
       },
       "root": "",
       "sourceRoot": "src",
-      "prefix": "app",
+      "prefix": "webpage",
       "architect": {
         "build": {
           "builder": "@angular-devkit/build-angular:browser",
@@ -97,6 +97,12 @@
               "src/styles.css"
             ],
             "scripts": []
+          }
+        },
+        "deploy": {
+          "builder": "angular-cli-ghpages:deploy",
+          "options": {
+            "branch": "production"
           }
         }
       }
