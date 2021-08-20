@@ -14,7 +14,7 @@ export class WelcomeComponent implements OnInit, AfterViewInit {
   }
 
   ngAfterViewInit(): void {
-    this.backgroundVideo?.nativeElement?.play();
+    document.querySelector('video')?.play();
   }
 
 }
