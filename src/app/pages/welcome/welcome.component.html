@@ -1,7 +1,7 @@
-<section class="showcase">
+<section class="showcase" [ngClass]="displayMenu ? 'active': ''">
   <header>
     <h2 class="logo">GR</h2>
-    <div class="toggle"></div>
+    <div class="toggle" (click)="toggleMenu()"></div>
   </header>
   <video #backgroundVideo src="assets/videos/pexels-taryn-elliott-7108970.mp4" [muted]="true" loop [autoplay]="true"></video>
   <div class="overlay"></div>
@@ -16,12 +16,12 @@
     <li><a href="https://www.instagram.com/gabriel.rusu.dev/"><img src="https://i.ibb.co/ySwtH4B/instagram.png"></a></li>
   </ul>
 </section>
-<div class="menu">
+
+<div class="menu" [ngClass]="displayMenu ? 'active': ''">
   <ul>
     <li><a href="#">Home</a></li>
-    <li><a href="#">News</a></li>
-    <li><a href="#">Destination</a></li>
-    <li><a href="#">Blog</a></li>
+    <li><a href="#">Skills</a></li>
+    <li><a href="#">Projects</a></li>
     <li><a href="#">Contact</a></li>
   </ul>
 </div>
