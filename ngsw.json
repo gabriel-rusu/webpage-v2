@@ -1,6 +1,6 @@
 {
   "configVersion": 1,
-  "timestamp": 1636308088627,
+  "timestamp": 1636308457373,
   "index": "https://gabriel-rusu.github.io/webpage/index.html",
   "assetGroups": [
     {
@@ -29,14 +29,6 @@
         "ignoreVary": true
       },
       "urls": [
-        "https://gabriel-rusu.github.io/webpage/assets/icons/icon-128x128.png",
-        "https://gabriel-rusu.github.io/webpage/assets/icons/icon-144x144.png",
-        "https://gabriel-rusu.github.io/webpage/assets/icons/icon-152x152.png",
-        "https://gabriel-rusu.github.io/webpage/assets/icons/icon-192x192.png",
-        "https://gabriel-rusu.github.io/webpage/assets/icons/icon-384x384.png",
-        "https://gabriel-rusu.github.io/webpage/assets/icons/icon-512x512.png",
-        "https://gabriel-rusu.github.io/webpage/assets/icons/icon-72x72.png",
-        "https://gabriel-rusu.github.io/webpage/assets/icons/icon-96x96.png",
         "https://gabriel-rusu.github.io/webpage/assets/videos/pexels-lucas-rezende-5534124.mp4",
         "https://gabriel-rusu.github.io/webpage/assets/videos/pexels-taryn-elliott-7108970.mp4",
         "https://gabriel-rusu.github.io/webpage/assets/videos/production ID_4193128.mp4",
@@ -52,14 +44,6 @@
   ],
   "dataGroups": [],
   "hashTable": {
-    "https://gabriel-rusu.github.io/webpage/assets/icons/icon-128x128.png": "dae3b6ed49bdaf4327b92531d4b5b4a5d30c7532",
-    "https://gabriel-rusu.github.io/webpage/assets/icons/icon-144x144.png": "b0bd89982e08f9bd2b642928f5391915b74799a7",
-    "https://gabriel-rusu.github.io/webpage/assets/icons/icon-152x152.png": "7479a9477815dfd9668d60f8b3b2fba709b91310",
-    "https://gabriel-rusu.github.io/webpage/assets/icons/icon-192x192.png": "1abd80d431a237a853ce38147d8c63752f10933b",
-    "https://gabriel-rusu.github.io/webpage/assets/icons/icon-384x384.png": "329749cd6393768d3131ed6304c136b1ca05f2fd",
-    "https://gabriel-rusu.github.io/webpage/assets/icons/icon-512x512.png": "559d9c4318b45a1f2b10596bbb4c960fe521dbcc",
-    "https://gabriel-rusu.github.io/webpage/assets/icons/icon-72x72.png": "c457e56089a36952cd67156f9996bc4ce54a5ed9",
-    "https://gabriel-rusu.github.io/webpage/assets/icons/icon-96x96.png": "3914125a4b445bf111c5627875fc190f560daa41",
     "https://gabriel-rusu.github.io/webpage/assets/videos/pexels-lucas-rezende-5534124.mp4": "4125937da9e1f6410a034bfc161676f01687e235",
     "https://gabriel-rusu.github.io/webpage/assets/videos/pexels-taryn-elliott-7108970.mp4": "f5e35ce243a17a35080880fc0e6e7903253237b4",
     "https://gabriel-rusu.github.io/webpage/assets/videos/production ID_4193128.mp4": "e5e7d21fa9ed281a0521dfeccece29de2a8617e3",
