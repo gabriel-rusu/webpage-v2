@@ -1,0 +1,37 @@
+version: 2
+jobs:
+  build:
+    docker:
+      - image: circleci/node:16-browsers
+
+    working_directory: ~/repo
+
+    steps:
+      - add_ssh_keys:
+          fingerprints:
+            - "5b:e0:62:ab:fd:a2:40:bc:4f:a8:e0:92:b6:bb:ff:1c"
+      - checkout
+
+      - restore_cache:
+          keys:
+            - v1-dependencies-{{ checksum "package.json" }}
+            # fallback to using the latest cache if no exact match is found
+            - v1-dependencies-
+
+      - run: npm install
+
+      - save_cache:
+          paths:
+            - node_modules
+          key: v1-dependencies-{{ checksum "package.json" }}
+
+      - run: npm run build --prod --build-optimizer --no-progress
+      - run: npm run test --single-run --no-progress
+      - run:
+          name: Configure git
+          command: |
+            git config user.email "rusugabriel13@gmail.com"
+            git config user.name "Circle CI"
+      - run:
+          name: Deploy to gh-pages
+          command: npm run deploy
