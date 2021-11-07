@@ -1,6 +1,6 @@
 {
   "configVersion": 1,
-  "timestamp": 1636308457373,
+  "timestamp": 1636308783161,
   "index": "https://gabriel-rusu.github.io/webpage/index.html",
   "assetGroups": [
     {
@@ -13,7 +13,7 @@
       "urls": [
         "https://gabriel-rusu.github.io/webpage/favicon.ico",
         "https://gabriel-rusu.github.io/webpage/index.html",
-        "https://gabriel-rusu.github.io/webpage/main.7d20e6e6173d0646.js",
+        "https://gabriel-rusu.github.io/webpage/main.570d85f74ff1f831.js",
         "https://gabriel-rusu.github.io/webpage/manifest.webmanifest",
         "https://gabriel-rusu.github.io/webpage/polyfills.9b8771f1d8b9ba90.js",
         "https://gabriel-rusu.github.io/webpage/runtime.a9f16d189e1d948d.js",
@@ -29,8 +29,8 @@
         "ignoreVary": true
       },
       "urls": [
+        "https://gabriel-rusu.github.io/webpage/assets/videos/background-video.mp4",
         "https://gabriel-rusu.github.io/webpage/assets/videos/pexels-lucas-rezende-5534124.mp4",
-        "https://gabriel-rusu.github.io/webpage/assets/videos/pexels-taryn-elliott-7108970.mp4",
         "https://gabriel-rusu.github.io/webpage/assets/videos/production ID_4193128.mp4",
         "https://gabriel-rusu.github.io/webpage/assets/videos/production ID_4193130.mp4",
         "https://gabriel-rusu.github.io/webpage/assets/videos/production ID_4193131.mp4",
@@ -44,8 +44,8 @@
   ],
   "dataGroups": [],
   "hashTable": {
+    "https://gabriel-rusu.github.io/webpage/assets/videos/background-video.mp4": "f5e35ce243a17a35080880fc0e6e7903253237b4",
     "https://gabriel-rusu.github.io/webpage/assets/videos/pexels-lucas-rezende-5534124.mp4": "4125937da9e1f6410a034bfc161676f01687e235",
-    "https://gabriel-rusu.github.io/webpage/assets/videos/pexels-taryn-elliott-7108970.mp4": "f5e35ce243a17a35080880fc0e6e7903253237b4",
     "https://gabriel-rusu.github.io/webpage/assets/videos/production ID_4193128.mp4": "e5e7d21fa9ed281a0521dfeccece29de2a8617e3",
     "https://gabriel-rusu.github.io/webpage/assets/videos/production ID_4193130.mp4": "8f0c0a3bf4f21f3424cfc99b3fe94f46db8ae303",
     "https://gabriel-rusu.github.io/webpage/assets/videos/production ID_4193131.mp4": "fcb5f6079cd881bb25a9f284314a4bb6cb121618",
@@ -54,8 +54,8 @@
     "https://gabriel-rusu.github.io/webpage/assets/videos/production ID_4782594.mp4": "ec91a45c0203a8cc2b3f8df0064864d3b3f0ec2d",
     "https://gabriel-rusu.github.io/webpage/assets/videos/production ID_5119478.mp4": "4b7bf6a3e0be555c5e15388a59392002d7dd1b19",
     "https://gabriel-rusu.github.io/webpage/favicon.ico": "22f6a4a3bcaafafb0254e0f2fa4ceb89e505e8b2",
-    "https://gabriel-rusu.github.io/webpage/index.html": "69618b732d095881357a39ee5f7eabccd6d398ec",
-    "https://gabriel-rusu.github.io/webpage/main.7d20e6e6173d0646.js": "1a758be4c2b7f6a4c7ddf3569018225e4f1f1f90",
+    "https://gabriel-rusu.github.io/webpage/index.html": "ad67421b5c478f763e857bd79a9cc7e0c0fb3a60",
+    "https://gabriel-rusu.github.io/webpage/main.570d85f74ff1f831.js": "a077d2a49cfbc4f62965e2985521fd995a279ae5",
     "https://gabriel-rusu.github.io/webpage/manifest.webmanifest": "bfddb33bf91d96f72621915f9c6d8ec932708e83",
     "https://gabriel-rusu.github.io/webpage/polyfills.9b8771f1d8b9ba90.js": "5e300c5b71afbc4f389d1d8aa5be1179e4948a82",
     "https://gabriel-rusu.github.io/webpage/runtime.a9f16d189e1d948d.js": "acd37a2cb0ff60b8792c8aa42f8a7b536c5c1bb8",
