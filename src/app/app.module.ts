@@ -1,24 +1,22 @@
-import { NgModule } from '@angular/core';
-import { BrowserModule } from '@angular/platform-browser';
+import {NgModule} from '@angular/core';
+import {BrowserModule} from '@angular/platform-browser';
 
-import { AppRoutingModule } from './app-routing.module';
-import { AppComponent } from './app.component';
-import { WelcomeComponent } from './pages/welcome/welcome.component';
-import { ServiceWorkerModule } from '@angular/service-worker';
-import { environment } from '../environments/environment';
-import { SkillsComponent } from './pages/skills/skills.component';
-import { ProjectsComponent } from './pages/projects/projects.component';
-import { ContactComponent } from './pages/contact/contact.component';
-import { AboutComponent } from './pages/about/about.component';
+import {AppRoutingModule} from './app-routing.module';
+import {AppComponent} from './app.component';
+import {WelcomeComponent} from './pages/welcome/welcome.component';
+import {ServiceWorkerModule} from '@angular/service-worker';
+import {environment} from '../environments/environment';
+import {ProjectsComponent} from './pages/projects/projects.component';
+import {ContactComponent} from './pages/contact/contact.component';
+import {ResumeComponent} from './pages/resume/resume.component';
 
 @NgModule({
   declarations: [
     AppComponent,
     WelcomeComponent,
-    SkillsComponent,
     ProjectsComponent,
     ContactComponent,
-    AboutComponent
+    ResumeComponent
   ],
   imports: [
     BrowserModule,

@@ -8,7 +8,7 @@
   <div class="text">
     <h2>Hi I'm Gabi</h2>
     <p>I'm a Software Engineer from Constanța, Romania with a passion for design</p>
-    <a href="#">Find out more</a>
+    <a href="#" (click)="toggleMenu()">Find out more</a>
   </div>
   <ul class="social">
     <li><a href="#"><img src="https://i.ibb.co/x7P24fL/facebook.png"></a></li>
@@ -21,7 +21,7 @@
 <div class="menu" [ngClass]="displayMenu ? 'active': ''">
   <ul>
     <li><a href="#">Home</a></li>
-    <li><a [routerLink]="['/skills']">Skills</a></li>
+    <li><a [routerLink]="['/resume']">Resume</a></li>
     <li><a href="#">Projects</a></li>
     <li><a href="#">Contact</a></li>
   </ul>
