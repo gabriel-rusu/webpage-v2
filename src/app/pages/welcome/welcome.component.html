@@ -9,7 +9,7 @@
     <h2>Hi I'm Gabi</h2>
     <p>I'm a Full Stack Software Engineer from Constanța, Romania passioned about web development, cloud technologies, scalable software and
     U.I design</p>
-    <a href="#" (click)="toggleMenu()">Find out more</a>
+    <a style="text-align: left" href="#" (click)="toggleMenu()">Find out more</a>
   </div>
   <ul class="social">
     <li><a href="https://www.facebook.com/gabriel.rusu.10485"><img src="https://i.ibb.co/x7P24fL/facebook.png"></a></li>
@@ -21,7 +21,7 @@
 <div class="menu" [ngClass]="displayMenu ? 'active': ''">
   <ul>
     <li><a href="#">Home</a></li>
-    <li><a [routerLink]="['/resume']">Resume</a></li>
+    <li><a [routerLink]="['/resume']">Résumé</a></li>
     <li><a [routerLink]="['/projects']">Projects</a></li>
     <li><a [routerLink]="['/contact']">Contact</a></li>
   </ul>
