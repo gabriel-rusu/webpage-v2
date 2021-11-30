@@ -15,7 +15,7 @@ export class ResumeComponent implements OnInit {
     "education": [
 
       {
-        "title": "Master's degree, Artificial Inteligence",
+        "title": "Master's degree, Artificial Intelligence",
         "logoUrl": "https://i.ibb.co/tzZ6xt3/download-removebg-preview-auto-x1-colored-illustration-x4-colored.png",
         "institution": "Faculty of Automatic Control and Computers"
       },
