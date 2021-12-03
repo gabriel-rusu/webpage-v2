@@ -4,10 +4,10 @@
       <h1 style=" text-align: center;">Résumé</h1>
     </div>
     <div class="row">
-      <section class="col-12">
+      <section class="col-12 col-lg-6" style="margin-bottom: 20px">
         <h3 style="margin-left: 15px"><img width="45px" style="padding: 3px" src="assets/images/graduation.png">Education</h3>
         <div *ngFor="let item of items.education" class="row">
-          <div class="col-3 col-sm-3 col-md-2 col-lg-2 col-xl-1">
+          <div class="col-3 col-sm-3 col-md-2 col-lg-4 col-xl-2">
             <img class="logo" width="80px" src="{{item.logoUrl}}">
           </div>
           <div class="col">
@@ -16,14 +16,15 @@
           </div>
         </div>
       </section>
-      <section class="col-12" style="margin-top: 20px">
+      <section class="col-12 col-lg-6" style="margin-bottom: 20px">
         <h3  style="margin-left: 15px;margin-bottom: 20px"><img width="45px" style="padding: 3px" src="assets/images/work.png">Experience</h3>
         <div *ngFor="let item of items.experience" class="row">
-          <div class="col-3 col-sm-3 col-md-2 col-lg-2 col-xl-1">
+          <div class="col-3 col-sm-3 col-md-2 col-lg-4 col-xl-2">
             <img class="logo" width="75px" src="{{item.logoUrl}}">
           </div>
           <div class="col">
             <h5 class="heading">{{item.position}}</h5>
+            <h6 class="heading" style="font-size: 12px; ">{{item.company}}</h6>
           </div>
         </div>
       </section>

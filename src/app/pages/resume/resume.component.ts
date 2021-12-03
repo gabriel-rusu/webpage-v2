@@ -7,29 +7,13 @@ import {Component, HostBinding, OnInit} from '@angular/core';
 })
 export class ResumeComponent implements OnInit {
   @HostBinding('attr.class') classes = 'background';
-  items: any =  {
-    "experience": [{
-      "position": "Full Stack Software Engineer",
-      "logoUrl": "https://upload.wikimedia.org/wikipedia/commons/thumb/f/f9/Canadian_Bank_Note_Company_logo.svg/1200px-Canadian_Bank_Note_Company_logo.svg.png"
-    }],
-    "education": [
-
-      {
-        "title": "Master's degree, Artificial Intelligence",
-        "logoUrl": "https://i.ibb.co/tzZ6xt3/download-removebg-preview-auto-x1-colored-illustration-x4-colored.png",
-        "institution": "Faculty of Automatic Control and Computers"
-      },
-      {
-        "title": "Bachelor's degree, Systems Engineering",
-        "logoUrl": "https://i.ibb.co/tzZ6xt3/download-removebg-preview-auto-x1-colored-illustration-x4-colored.png",
-        "institution": "Faculty of Automatic Control and Computers"
-      }
-    ]
-  }
+  items: any;
 
   constructor() { }
 
   ngOnInit(): void {
+    // @ts-ignore
+    this.items = require('../../../assets/data.json');
   }
 
 }
