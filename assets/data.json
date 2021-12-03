@@ -1,0 +1,21 @@
+{
+  "experience": [
+    {
+      "position": "Full Stack Software Engineer",
+      "logoUrl": "https://upload.wikimedia.org/wikipedia/commons/thumb/f/f9/Canadian_Bank_Note_Company_logo.svg/1200px-Canadian_Bank_Note_Company_logo.svg.png",
+      "company": "Canadian Bank Note"
+    },
+    {
+      "position": "Teaching Assistant",
+      "logoUrl": "https://i.ibb.co/tzZ6xt3/download-removebg-preview-auto-x1-colored-illustration-x4-colored.png",
+      "company": "Faculty of Automatic Control and Computers"
+    }
+  ],
+  "education" :[
+    {
+      "title": "Bachelor's degree, Systems Engineering",
+      "logoUrl": "https://i.ibb.co/tzZ6xt3/download-removebg-preview-auto-x1-colored-illustration-x4-colored.png",
+      "institution": "Faculty of Automatic Control and Computers"
+    }
+  ]
+}
