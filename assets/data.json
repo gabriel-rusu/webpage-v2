@@ -3,19 +3,83 @@
     {
       "position": "Full Stack Software Engineer",
       "logoUrl": "https://upload.wikimedia.org/wikipedia/commons/thumb/f/f9/Canadian_Bank_Note_Company_logo.svg/1200px-Canadian_Bank_Note_Company_logo.svg.png",
-      "company": "Canadian Bank Note"
+      "company": "Canadian Bank Note",
+      "start": {
+        "month": "Dec",
+        "year": "2019"
+      },
+      "end": null
     },
     {
       "position": "Teaching Assistant",
       "logoUrl": "https://i.ibb.co/tzZ6xt3/download-removebg-preview-auto-x1-colored-illustration-x4-colored.png",
-      "company": "Faculty of Automatic Control and Computers"
+      "company": "Faculty of Automatic Control and Computers",
+      "start": {
+        "month": "Dec",
+        "year": "2018"
+      },
+      "end": {
+        "month": "Jun",
+        "year": "2021"
+      }
     }
   ],
   "education" :[
     {
       "title": "Bachelor's degree, Systems Engineering",
       "logoUrl": "https://i.ibb.co/tzZ6xt3/download-removebg-preview-auto-x1-colored-illustration-x4-colored.png",
-      "institution": "Faculty of Automatic Control and Computers"
+      "institution": "Faculty of Automatic Control and Computers",
+      "start": {
+        "month": "Oct",
+        "year": "2017"
+      },
+      "end": {
+        "month": "Jun",
+        "year": "2021"
+      }
+    }
+  ],
+  "certificates": [
+
+    {
+      "title": "Problem Solving (Intermediate)",
+      "link": "https://www.hackerrank.com/certificates/5f8da7f1a34f",
+      "issuer": "Hacker Rank",
+      "issuerLogo": "assets/images/hackerrank.png",
+      "date": {
+        "month": "Dec",
+        "year": "2021"
+      }
+    },
+    {
+      "title": "JavaScript (Intermediate)",
+      "link": "https://www.hackerrank.com/certificates/58de10799c94",
+      "issuer": "Hacker Rank",
+      "issuerLogo": "assets/images/hackerrank.png",
+      "date": {
+        "month": "Dec",
+        "year": "2021"
+      }
+    },
+    {
+      "title": "Machine Learning",
+      "link" : "https://www.coursera.org/account/accomplishments/certificate/YPQ96D3ZCKLW",
+      "issuer": "Coursera",
+      "issuerLogo": "assets/images/coursera.svg",
+      "date": {
+        "month": "Nov",
+        "year": "2021"
+      }
+    },
+    {
+      "title": "Java (Intermediate)",
+      "link": "https://www.hackerrank.com/certificates/f9be305b88f4",
+      "issuer": "Hacker Rank",
+      "issuerLogo": "assets/images/hackerrank.png",
+      "date": {
+        "month": "Sept",
+        "year": "2020"
+      }
     }
   ]
 }
