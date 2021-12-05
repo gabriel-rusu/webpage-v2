@@ -1,6 +1,6 @@
 {
   "configVersion": 1,
-  "timestamp": 1638733532504,
+  "timestamp": 1638733610570,
   "index": "https://gabriel-rusu.github.io/webpage/index.html",
   "assetGroups": [
     {
@@ -17,7 +17,7 @@
         "https://gabriel-rusu.github.io/webpage/manifest.webmanifest",
         "https://gabriel-rusu.github.io/webpage/polyfills.9b8771f1d8b9ba90.js",
         "https://gabriel-rusu.github.io/webpage/runtime.a9f16d189e1d948d.js",
-        "https://gabriel-rusu.github.io/webpage/styles.a2bb36b35a9b127d.css"
+        "https://gabriel-rusu.github.io/webpage/styles.e06d996fecf1113c.css"
       ],
       "patterns": []
     },
@@ -60,7 +60,13 @@
         "https://gabriel-rusu.github.io/webpage/assets/videos/production ID_4193133.mp4",
         "https://gabriel-rusu.github.io/webpage/assets/videos/production ID_4782135.mp4",
         "https://gabriel-rusu.github.io/webpage/assets/videos/production ID_4782594.mp4",
-        "https://gabriel-rusu.github.io/webpage/assets/videos/production ID_5119478.mp4"
+        "https://gabriel-rusu.github.io/webpage/assets/videos/production ID_5119478.mp4",
+        "https://gabriel-rusu.github.io/webpage/bootstrap-icons.7e8b70c0ca62bff8.woff2",
+        "https://gabriel-rusu.github.io/webpage/bootstrap-icons.e23375a1fdb9d81a.woff",
+        "https://gabriel-rusu.github.io/webpage/primeicons.29151a741d66863a.woff",
+        "https://gabriel-rusu.github.io/webpage/primeicons.5f5d08cd089b4e5d.ttf",
+        "https://gabriel-rusu.github.io/webpage/primeicons.76044b1c189cc4d7.svg",
+        "https://gabriel-rusu.github.io/webpage/primeicons.964f445f3ea9db80.eot"
       ],
       "patterns": []
     }
@@ -99,13 +105,19 @@
     "https://gabriel-rusu.github.io/webpage/assets/videos/production ID_4782135.mp4": "d903c119a884f387aea0030b2c0f347386f7f400",
     "https://gabriel-rusu.github.io/webpage/assets/videos/production ID_4782594.mp4": "ec91a45c0203a8cc2b3f8df0064864d3b3f0ec2d",
     "https://gabriel-rusu.github.io/webpage/assets/videos/production ID_5119478.mp4": "4b7bf6a3e0be555c5e15388a59392002d7dd1b19",
+    "https://gabriel-rusu.github.io/webpage/bootstrap-icons.7e8b70c0ca62bff8.woff2": "00150349e6ebdaf2628af9ea4e56d6b02dbda393",
+    "https://gabriel-rusu.github.io/webpage/bootstrap-icons.e23375a1fdb9d81a.woff": "d644d61b4bc7925875ad953cc381b4a722b334d2",
     "https://gabriel-rusu.github.io/webpage/favicon.ico": "22f6a4a3bcaafafb0254e0f2fa4ceb89e505e8b2",
-    "https://gabriel-rusu.github.io/webpage/index.html": "5cefeaf4a5170272e02967c36013dfbf3d0d441b",
+    "https://gabriel-rusu.github.io/webpage/index.html": "9094fba58da451513769a8f74cc85af7194310b2",
     "https://gabriel-rusu.github.io/webpage/main.291128f2a8fa0d84.js": "aa51dad1a9b4a514c7ba6c2ef6e2a1b2234b8a86",
     "https://gabriel-rusu.github.io/webpage/manifest.webmanifest": "bfddb33bf91d96f72621915f9c6d8ec932708e83",
     "https://gabriel-rusu.github.io/webpage/polyfills.9b8771f1d8b9ba90.js": "5e300c5b71afbc4f389d1d8aa5be1179e4948a82",
+    "https://gabriel-rusu.github.io/webpage/primeicons.29151a741d66863a.woff": "21e477ea19e15b66344bcc23b3fbb2161092a707",
+    "https://gabriel-rusu.github.io/webpage/primeicons.5f5d08cd089b4e5d.ttf": "e6c86ca90a9fb4282fb35523d56fde00e78a1416",
+    "https://gabriel-rusu.github.io/webpage/primeicons.76044b1c189cc4d7.svg": "621775b2ec555fd2dd152a24390cf6dfeee168b1",
+    "https://gabriel-rusu.github.io/webpage/primeicons.964f445f3ea9db80.eot": "ccf65e40680b0ede6ab46939d421c831ae6afcf4",
     "https://gabriel-rusu.github.io/webpage/runtime.a9f16d189e1d948d.js": "acd37a2cb0ff60b8792c8aa42f8a7b536c5c1bb8",
-    "https://gabriel-rusu.github.io/webpage/styles.a2bb36b35a9b127d.css": "60817c08059e931fa4de2b40ea23c041358cb737"
+    "https://gabriel-rusu.github.io/webpage/styles.e06d996fecf1113c.css": "a2b81c4d31578c20ea9dbd80c99a628abdc8b8ae"
   },
   "navigationUrls": [
     {
