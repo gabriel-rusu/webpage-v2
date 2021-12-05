@@ -1,6 +1,6 @@
 {
   "configVersion": 1,
-  "timestamp": 1638733610570,
+  "timestamp": 1638733675767,
   "index": "https://gabriel-rusu.github.io/webpage/index.html",
   "assetGroups": [
     {
@@ -13,7 +13,7 @@
       "urls": [
         "https://gabriel-rusu.github.io/webpage/favicon.ico",
         "https://gabriel-rusu.github.io/webpage/index.html",
-        "https://gabriel-rusu.github.io/webpage/main.291128f2a8fa0d84.js",
+        "https://gabriel-rusu.github.io/webpage/main.a6e168536b14aa71.js",
         "https://gabriel-rusu.github.io/webpage/manifest.webmanifest",
         "https://gabriel-rusu.github.io/webpage/polyfills.9b8771f1d8b9ba90.js",
         "https://gabriel-rusu.github.io/webpage/runtime.a9f16d189e1d948d.js",
@@ -108,8 +108,8 @@
     "https://gabriel-rusu.github.io/webpage/bootstrap-icons.7e8b70c0ca62bff8.woff2": "00150349e6ebdaf2628af9ea4e56d6b02dbda393",
     "https://gabriel-rusu.github.io/webpage/bootstrap-icons.e23375a1fdb9d81a.woff": "d644d61b4bc7925875ad953cc381b4a722b334d2",
     "https://gabriel-rusu.github.io/webpage/favicon.ico": "22f6a4a3bcaafafb0254e0f2fa4ceb89e505e8b2",
-    "https://gabriel-rusu.github.io/webpage/index.html": "9094fba58da451513769a8f74cc85af7194310b2",
-    "https://gabriel-rusu.github.io/webpage/main.291128f2a8fa0d84.js": "aa51dad1a9b4a514c7ba6c2ef6e2a1b2234b8a86",
+    "https://gabriel-rusu.github.io/webpage/index.html": "212322e36f2c8920b0fc5fa114653be9c13911b6",
+    "https://gabriel-rusu.github.io/webpage/main.a6e168536b14aa71.js": "b7509ba8aefb7a2f56d9bc282649541ba25b39dd",
     "https://gabriel-rusu.github.io/webpage/manifest.webmanifest": "bfddb33bf91d96f72621915f9c6d8ec932708e83",
     "https://gabriel-rusu.github.io/webpage/polyfills.9b8771f1d8b9ba90.js": "5e300c5b71afbc4f389d1d8aa5be1179e4948a82",
     "https://gabriel-rusu.github.io/webpage/primeicons.29151a741d66863a.woff": "21e477ea19e15b66344bcc23b3fbb2161092a707",
