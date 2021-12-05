@@ -85,6 +85,15 @@ h3 {
 
   .logo {
     margin-left: 30px;
-
+    margin-right: 10px;
   }
+}
+
+.link {
+  cursor: pointer;
+  text-decoration: none !important;
+}
+
+.logo-padding {
+  margin-top: 25px !important;
 }

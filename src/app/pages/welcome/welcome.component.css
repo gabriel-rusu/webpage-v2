@@ -194,4 +194,14 @@ header .logo
   {
     font-size: 2em;
   }
+
+  .social-media {
+    font-size: 45px;
+    color: black;
+  }
+}
+
+.social-media {
+  font-size: 40px;
+  color: black;
 }

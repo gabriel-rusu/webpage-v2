@@ -16,4 +16,19 @@ export class ResumeComponent implements OnInit {
     this.items = require('../../../assets/data.json');
   }
 
+  period(item: any) {
+    const start =  [item.start.month, item.start.year].join(' ');
+    const end = item.end ? [item.end.month, item.end.year].join(' ') : 'Present';
+    return start + ' - ' + end;
+  }
+
+  issued(item: any) {
+    return [item.date.month, item.date.year].join(' ');
+  }
+
+  verify(issuerLogo: string) {
+    console.log('issuerLogo: ', issuerLogo)
+    console.log('issuer logo: ', issuerLogo.indexOf('coursera') !== -1)
+    return issuerLogo.indexOf('coursera') !== -1;
+  }
 }
