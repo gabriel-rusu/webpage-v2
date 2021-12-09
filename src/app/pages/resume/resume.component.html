@@ -48,13 +48,13 @@
       <section class="col-12 col-lg-6" style="margin-bottom: 20px">
         <h3 style="margin-left: 15px;margin-bottom: 20px"><img width="50px" style="padding: 3px"
                                                                src="assets/images/coding.png">Projects</h3>
-        <div *ngFor="let item of items.experience" class="row">
+        <div *ngFor="let item of items.projects" class="row">
           <div class="col-3 col-sm-3 col-md-2 col-lg-4 col-xl-2">
             <img class="logo" width="75px" src="{{item.logoUrl}}">
           </div>
           <div class="col">
-            <h5 class="heading">{{item.position}}</h5>
-            <h6 class="heading" style="font-size: 12px; ">{{item.company}}</h6>
+            <h5 class="heading"><a class="link" href="{{item.link}}">{{item.title}}</a></h5>
+            <h6 class="heading" style="font-size: 12px; max-width: 300px; text-wrap: normal">{{item.description}}</h6>
             <h6 class="heading" style="font-size: 10px; "><i class="bi bi-calendar3"></i>{{' '+period(item)}}</h6>
           </div>
         </div>
