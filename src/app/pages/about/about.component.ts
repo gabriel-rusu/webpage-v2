@@ -6,7 +6,7 @@ import { Component, OnInit } from '@angular/core';
   styleUrls: ['./about.component.css']
 })
 export class AboutComponent implements OnInit {
-  email: any;
+  email: string = 'gabriel-rusu@outlook.com';
   subject: any;
   message: any;
 
