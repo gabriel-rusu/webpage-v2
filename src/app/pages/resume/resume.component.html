@@ -55,7 +55,7 @@
           <div class="col">
             <h5 class="heading"><a class="link" href="{{item.link}}">{{item.title}}</a></h5>
             <h6 class="heading" style="font-size: 12px; max-width: 300px; text-wrap: normal">{{item.description}}</h6>
-            <h6 class="heading" style="font-size: 10px; "><i class="bi bi-calendar3"></i>{{' '+period(item)}}</h6>
+            <h6 *ngIf="item.start" class="heading" style="font-size: 10px; "><i class="bi bi-calendar3"></i>{{' '+period(item)}}</h6>
           </div>
         </div>
       </section>
