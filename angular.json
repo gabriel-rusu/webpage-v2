@@ -109,7 +109,7 @@
           "builder": "angular-cli-ghpages:deploy",
           "options": {
             "branch": "production",
-            "baseHref": "https://gabriel-rusu.github.io/webpage/"
+            "cname": "gabrielrusu.dev"
           }
         }
       }
