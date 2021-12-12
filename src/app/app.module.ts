@@ -6,17 +6,16 @@ import {AppComponent} from './app.component';
 import {WelcomeComponent} from './pages/welcome/welcome.component';
 import {ServiceWorkerModule} from '@angular/service-worker';
 import {environment} from '../environments/environment';
-import {ProjectsComponent} from './pages/projects/projects.component';
-import {ContactComponent} from './pages/contact/contact.component';
 import {ResumeComponent} from './pages/resume/resume.component';
+import { AboutComponent } from './pages/about/about.component';
+import {FormsModule} from "@angular/forms";
 
 @NgModule({
   declarations: [
     AppComponent,
     WelcomeComponent,
-    ProjectsComponent,
-    ContactComponent,
-    ResumeComponent
+    ResumeComponent,
+    AboutComponent
   ],
   imports: [
     BrowserModule,
@@ -26,7 +25,8 @@ import {ResumeComponent} from './pages/resume/resume.component';
       // Register the ServiceWorker as soon as the app is stable
       // or after 30 seconds (whichever comes first).
       registrationStrategy: 'registerWhenStable:30000'
-    })
+    }),
+    FormsModule
   ],
   providers: [],
   bootstrap: [AppComponent]

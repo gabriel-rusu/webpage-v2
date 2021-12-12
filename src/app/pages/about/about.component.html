@@ -1,0 +1,39 @@
+<div class="fullscreen background">
+  <div class="glass grid" style="margin: 50px;">
+    <div class="g-col-6 g-col-md-4" style="margin-bottom: 30px">
+      <h1 style=" text-align: center;"></h1>
+    </div>
+    <div class="row">
+      <section class="col-12 col-lg-6">
+        <img style="border-radius: 50%;" class="center img-fluid" src="assets/images/me.jpg">
+      </section>
+      <section class="col-12 col-lg-6">
+        <h3 class="spacing">My, Myself and I</h3>
+        <p class="spacing">I'm a Full Stack Software Engineer from Constanța, Romania passioned about web development,
+          cloud technologies, scalable software and U.I design
+        </p>
+        <p class="spacing">Well-organised person, problem solver, independent employee with high attention to detail.
+          Fan of football, outdoor activities and TV series.
+        </p>
+        <p class="spacing">
+          Interested in the entire web application development spectrum and working on ambitious projects with positive
+          people.
+        </p>
+        <h3 class="spacing">Get in touch</h3>
+        <p class="spacing">I’m interested in freelance opportunities – especially ambitious or large projects. However,
+          if you have other request or question, don’t hesitate to use the form.</p>
+        <div class="col-lg-6 col-md-6 col-6 input-group">
+          <input type="text" class="left-align spacing padding form-control" placeholder="Email" aria-label="Email" [(ngModel)]="email" #e="ngModel" required>
+        </div>
+        <div class="col-lg-6 col-md-6 col-6 input-group">
+          <input type="text" class="left-align spacing padding form-control" placeholder="Subject" aria-label="Subject" [(ngModel)]="subject" #s="ngModel" required>
+        </div>
+        <div class="col-12 input-group">
+          <textarea placeholder="Message" class="left-align spacing padding form-control" rows="10" [(ngModel)]="message" #m="ngModel"></textarea>
+        </div>
+          <button class="btn btn-primary spacing"><a class=" link" href="mailto:{{email}}?subject={{subject}}&body={{message}}">Send message!</a></button>
+      </section>
+
+    </div>
+  </div>
+</div>

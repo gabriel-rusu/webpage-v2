@@ -7,8 +7,7 @@
   <div class="overlay"></div>
   <div class="text centering">
     <h2>Hi I'm Gabi</h2>
-    <p >I'm a Full Stack Software Engineer from Constanța, Romania passioned about web development, cloud technologies, scalable software and
-    U.I design</p>
+    <p >I'm a simple human being</p>
     <a class="button" href="#" (click)="toggleMenu()">Find out more</a>
   </div>
   <ul class="social">
@@ -21,9 +20,7 @@
 
 <div class="menu" [ngClass]="displayMenu ? 'active': ''">
   <ul>
-    <li><a href="#">Home</a></li>
+    <li><a [routerLink]="['/about']">About</a></li>
     <li><a [routerLink]="['/resume']">Résumé</a></li>
-    <li><a [routerLink]="['/projects']">Projects</a></li>
-    <li><a [routerLink]="['/contact']">Contact</a></li>
   </ul>
 </div>

@@ -46,33 +46,31 @@ h3 {
   padding: 5px;
 }
 
-
-.logo{
-  margin-left: 50px;
+.padding {
+  padding-right: 10px;
 }
 
-.heading {
-  margin-top: 10px;
-  font-size: 15px;
-  margin-left: 20px;
+.link {
+  cursor: pointer;
+  color: white;
+  text-decoration: none !important;
 }
+
+.spacing {
+  margin: 20px;
+}
+
+
+.center {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  width: 90%;
+}
+
 
 @media only screen and (max-width: 600px) {
   div.glass.grid {
     margin: 20px !important;
   }
-
-  .logo {
-    margin-left: 30px;
-    margin-right: 10px;
-  }
-}
-
-.link {
-  cursor: pointer;
-  text-decoration: none !important;
-}
-
-.logo-padding {
-  margin-top: 25px !important;
 }
