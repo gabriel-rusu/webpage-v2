@@ -1,7 +1,7 @@
 {
   "experience": [
     {
-      "position": "Full Stack Software Engineer",
+      "position": "Java Full Stack Software Engineer",
       "logoUrl": "assets/images/cbn-logo.png",
       "company": "Canadian Bank Note",
       "start": {
@@ -83,20 +83,6 @@
   ],
   "projects": [
     {
-      "title": "Game Engine",
-      "link": "https://github.com/gabriel-rusu/Game-Engine",
-      "logoUrl": "assets/images/game-plan.png",
-      "description": " A simple game engine that renders a terrain and manages resources\n.A game engine is the base of every modern game development project.",
-      "start": {
-        "month": "Oct",
-        "year": "2018"
-      },
-      "end": {
-        "month": "Jun",
-        "year": "2019"
-      }
-    },
-    {
       "title": "Webpage",
       "link": "https://github.com/gabriel-rusu/webpage",
       "logoUrl": "assets/images/webpage.png",
@@ -109,6 +95,40 @@
         "month": "Dec",
         "year": "2021"
       }
+    },
+    {
+      "title": "E.L.F Executable Loader",
+      "link": "https://github.com/gabriel-rusu/E.L.F-Executable-Loader",
+      "logoUrl": "assets/images/ubuntu.png",
+      "description": "The E.L.F Executable Loader loads the executable file into memory page-by-page, using a request-paging mechanism - a page will only be loaded when it is needed.",
+      "start": {
+        "month": "May",
+        "year": "2020"
+      },
+      "end": {
+        "month": "Jun",
+        "year": "2020"
+      }
+    },
+    {
+      "title": "Game Engine",
+      "link": "https://github.com/gabriel-rusu/Game-Engine",
+      "logoUrl": "assets/images/game-plan.png",
+      "description": "A modern game engine that renders a terrain, loads character models and manages resources optimized to work 10% faster than Unity game engine.",
+      "start": {
+        "month": "Oct",
+        "year": "2018"
+      },
+      "end": {
+        "month": "Jun",
+        "year": "2019"
+      }
+    },
+    {
+      "title": "More projects on my Github",
+      "link": "https://github.com/gabriel-rusu"
     }
   ]
 }
+
+
