@@ -45,10 +45,10 @@ After running the command to start the app run ```npm start``` or ```ng serve```
 Run `ng serve` for a dev server. Navigate to `http://localhost:4200/`. The app will automatically reload if you change any of the source files.
 Run `ng build` to build the project. The build artifacts will be stored in the `dist/` directory. Use the `--prod` flag for a production build.
 ## ⛏️ Built Using <a name = "built_using"></a>
-- [Visual Studio Code](https://code.visualstudio.com/) - code editor
-- [Bootstrap](https://semantic-ui.com/) - framework that helps create beautiful, responsive layouts using human-friendly HTML.
-- [Node JS](https://nodejs.org/en/) - designed to build scalable network applications
-- [Angular 10](https://angular.io/) - application design framework and development platform for creating efficient and sophisticated single-page apps.
+- [Visual Studio Code](https://code.visualstudio.com/) - code editor.
+- [Bootstrap](https://semantic-ui.com/) - framework that helps create beautiful, responsive layouts.
+- [Node JS](https://nodejs.org/en/) - designed to build scalable network applications.
+- [Angular 13](https://angular.io/) - application design framework and development platform for creating efficient and sophisticated single-page apps.
 
 ## ✍️ Authors <a name = "authors"></a>
 - [@gabriel-rusu](https://github.com/gabriel-rusu) - Idea & Implementation
