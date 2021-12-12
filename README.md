@@ -2,7 +2,7 @@
    <img width="128" height="128" src="./src/assets/images/logo.png">
 </p>
 
-<h3 align="center">Personal-Webpage</h3>
+<h3 align="center">Webpage</h3>
 
 <p align="center"> 
       In this project, I tried to showcase my achievements in a pleasant way building a personal webpage from scratch and learn something in the process 
