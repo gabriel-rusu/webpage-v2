@@ -26,6 +26,17 @@
   ],
   "education" :[
     {
+      "title": "Master's degree, Artificial Intelligence",
+      "logoUrl": "assets/images/acs-logo.png",
+      "institution": "Faculty of Automatic Control and Computers",
+      "start": {
+        "month": "Oct",
+        "year": "2022"
+      },
+      "end": null
+    }
+    ,
+    {
       "title": "Bachelor's degree, Systems Engineering",
       "logoUrl": "assets/images/acs-logo.png",
       "institution": "Faculty of Automatic Control and Computers",
