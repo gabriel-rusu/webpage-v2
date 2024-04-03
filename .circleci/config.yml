@@ -34,6 +34,10 @@ jobs:
           command: npm run build --prod --build-optimizer --no-progress
 
       - run:
+          name: Debug Chrome binary location
+          command: ls -l /usr/bin
+
+      - run:
           name: Karma Tests
           command: npm run test --single-run --no-progress
           environment:
