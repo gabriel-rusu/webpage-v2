@@ -20,15 +20,24 @@ jobs:
             # fallback to using the latest cache if no exact match is found
             - v1-dependencies-
 
-      - run: npm install
+      - run:
+          name: Installing dependencies
+          command: npm install
 
       - save_cache:
           paths:
             - node_modules
           key: v1-dependencies-{{ checksum "package.json" }}
 
-      - run: npm run build --prod --build-optimizer --no-progress
-      - run: npm run test --single-run --no-progress
+      - run:
+          name: Building for production environment
+          command: npm run build --prod --build-optimizer --no-progress
+
+      - run:
+          name: Karma Tests
+          command: npm run test --single-run --no-progress
+          environment:
+            CHROME_BIN: /usr/bin/google-chrome
       - run:
           name: Configure git
           command: |
@@ -37,6 +46,3 @@ jobs:
       - run:
           name: Deploy to gh-pages
           command: npm run deploy
-
-    environment:
-      CHROME_BIN: /usr/bin/google-chrome
