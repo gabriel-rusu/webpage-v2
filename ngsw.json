@@ -1,6 +1,6 @@
 {
   "configVersion": 1,
-  "timestamp": 1719216441653,
+  "timestamp": 1743015468360,
   "index": "/index.html",
   "assetGroups": [
     {
@@ -72,12 +72,12 @@
   ],
   "dataGroups": [],
   "hashTable": {
-    "/assets/data.json": "4f4b929cb30020b3d9040e32291e1672201262d9",
+    "/assets/data.json": "0220bd85b4464dd2e2f2223956f2f873c2bc6baf",
     "/assets/images/acs-logo.png": "c943519365582d5258673cf36e0804c82b4e80eb",
     "/assets/images/cbn-logo.png": "9a67ebe3c0413cc5b2845076617621475fe49e0b",
     "/assets/images/certificate.png": "0f47cc1fdef9c9df9283d0bfcbdb6561f6377064",
     "/assets/images/coding.png": "a5a6018b56064990cff58d8cd842ccb8f64f6aea",
-    "/assets/images/coursera.svg": "1d25abe09124681a0359f9ef5d9f4bb802871491",
+    "/assets/images/coursera.svg": "b1a0e98a86dddc3eeebd3560792f2ac78fff5eed",
     "/assets/images/draw-ai-me-2.jpg": "eb16e30ecde6108ba5b0347cf605bfd7a88c3e15",
     "/assets/images/game-development.png": "ae1946ce3e87c05463dabd1a65480a2d6e12e863",
     "/assets/images/game-plan.png": "3122e53fe75a1349c4c64aa9d225bff891f08c13",
@@ -106,9 +106,9 @@
     "/bootstrap-icons.51e2826a5e883791.woff": "36952dbeb50a08a17d0dba69fa9cccde990ed10d",
     "/bootstrap-icons.988b20fa812f3498.woff2": "1ca5e8c7d2fb8e9d60ad1a1feb2a46e98c248a3d",
     "/favicon.ico": "22f6a4a3bcaafafb0254e0f2fa4ceb89e505e8b2",
-    "/index.html": "237e422f4905091c2b5daee43b6ef5e310a5a55d",
+    "/index.html": "a8e4167fe94c5dde69c6df9f00b1973f712555df",
     "/main.39251841886ca2c6.js": "163dcaaf0aa0b3badf67a2d804217d9411a30b6d",
-    "/manifest.webmanifest": "bfddb33bf91d96f72621915f9c6d8ec932708e83",
+    "/manifest.webmanifest": "d2b7346ce449d3171108e359f260dcdd82125aad",
     "/polyfills.17b87e4f2739e74f.js": "bfaf2ac9b51cf812b116dcdc6d4ed49c2bad8eaf",
     "/primeicons.29151a741d66863a.woff": "21e477ea19e15b66344bcc23b3fbb2161092a707",
     "/primeicons.5f5d08cd089b4e5d.ttf": "e6c86ca90a9fb4282fb35523d56fde00e78a1416",
