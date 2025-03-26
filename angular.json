@@ -108,8 +108,9 @@
         "deploy": {
           "builder": "angular-cli-ghpages:deploy",
           "options": {
+            "buildTarget": "webpage:build:production",
             "branch": "production",
-            "cname": "gabrielrusu.dev"
+            "cname": "webpage-v2.gabriel-rusu.dev"
           }
         }
       }
