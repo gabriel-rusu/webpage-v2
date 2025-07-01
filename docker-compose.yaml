@@ -1,0 +1,7 @@
+services:
+  webpage-v2:
+    container_name: webpage-v2
+    build:
+      context: .
+    ports:
+      - "4200:4200"
